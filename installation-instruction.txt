@@ -1,0 +1,34 @@
+1)  Go to your www folder
+
+2) cd to your empty folder
+ex: cd axadra
+
+3) git clone https://github.com/axadra/php-exam-v01.git .
+
+4) cp .env.example .env
+
+5) Configure .env files
+
+APP_URL=http://axadra.test
+DB_HOST=localhost
+DB_DATABASE=axadra
+DB_USERNAME=root
+DB_PASSWORD=your_password
+
+6) composer update
+
+7) php artisan key:generate
+
+8) php artisan migrate
+
+9) php artisan storage:link
+
+10) php artisan db:seed
+
+
+
+
+
+
+
+

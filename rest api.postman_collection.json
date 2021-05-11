@@ -1,0 +1,209 @@
+{
+	"id": "e9a0def7-5468-eca5-c0a0-f7047c5c5d7b",
+	"name": "rest api",
+	"description": "rest controller\n",
+	"order": [
+		"6be8b4b8-1df1-a7d9-c9eb-3820715a7d74",
+		"5848ec47-d7e1-fcd2-a8e4-b01be471ff73",
+		"609131fd-56a4-73d9-c7e0-09e40430c64a",
+		"9c680ee9-cd2e-0905-01ff-22adaf66ccde",
+		"d8732e7e-86d0-3517-5123-b3c9683556bf"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1609025586805,
+	"owner": 0,
+	"public": false,
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "5848ec47-d7e1-fcd2-a8e4-b01be471ff73",
+			"headers": "",
+			"headerData": [],
+			"url": "http://axadra.test/api/posts/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1620404413262,
+			"name": "get post by id",
+			"description": "",
+			"collectionId": "e9a0def7-5468-eca5-c0a0-f7047c5c5d7b",
+			"responses": []
+		},
+		{
+			"id": "609131fd-56a4-73d9-c7e0-09e40430c64a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://axadra.test/api/posts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "Hello World 2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "html_256x256.png",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "this is a sample paragraph",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tags",
+					"value": "tag456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "false",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1620404430650,
+			"name": "create post",
+			"description": "",
+			"collectionId": "e9a0def7-5468-eca5-c0a0-f7047c5c5d7b",
+			"responses": []
+		},
+		{
+			"id": "6be8b4b8-1df1-a7d9-c9eb-3820715a7d74",
+			"headers": "",
+			"headerData": [],
+			"url": "http://axadra.test/api/posts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1620404411136,
+			"name": "get all posts",
+			"description": "",
+			"collectionId": "e9a0def7-5468-eca5-c0a0-f7047c5c5d7b",
+			"responses": []
+		},
+		{
+			"id": "9c680ee9-cd2e-0905-01ff-22adaf66ccde",
+			"headers": "",
+			"headerData": [],
+			"url": "http://axadra.test/api/posts/6",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "Hellow World v234",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "this is a paragraph updated!!",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tags",
+					"value": "notag",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "true",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "_method",
+					"value": "PUT",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "JavaScript-Logo.png",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1620404435087,
+			"name": "update post",
+			"description": "",
+			"collectionId": "e9a0def7-5468-eca5-c0a0-f7047c5c5d7b",
+			"responses": []
+		},
+		{
+			"id": "d8732e7e-86d0-3517-5123-b3c9683556bf",
+			"headers": "",
+			"headerData": [],
+			"url": "http://axadra.test/api/posts/6",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1620404436931,
+			"name": "delete post",
+			"description": "",
+			"collectionId": "e9a0def7-5468-eca5-c0a0-f7047c5c5d7b",
+			"responses": []
+		}
+	]
+}
