@@ -7,8 +7,7 @@
 5. API-based architecture (separate instance for the API and web application).
 6. Fork this repository on your GitHub account.
 7. Create your app.
-8. Once done, create a Pull Request (PR) to this repository. Please include your **full name** in the description and add **chew-axadra** as a reviewer.
-9. Add an **installation-instruction.txt** to note the reviewer on how to install and setup your application.
+8. Add an **installation-instruction.txt** to note the reviewer on how to install and setup your application.
 
 ---
 
