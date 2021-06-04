@@ -44,8 +44,8 @@ class PostController extends Controller
         }
 
         $data = $request->all();
-        $slug = preg_replace('/[^A-Za-z0-9-]+/', '-', $request->title);
-        $data['slug'] = strtolower($slug);
+        //$slug = preg_replace('/[^A-Za-z0-9-]+/', '-', $request->title);
+        //$data['slug'] = strtolower($slug);
 
         if($request->status == 'true')
             $data['status'] = Post::PUBLISHED;
@@ -114,8 +114,8 @@ class PostController extends Controller
                 $post->status = Post::DRAFT;
         }
 
-        $slug = preg_replace('/[^A-Za-z0-9-]+/', '-', $request->title);
-        $post->slug = strtolower($slug);
+        //$slug = preg_replace('/[^A-Za-z0-9-]+/', '-', $request->title);
+        //$post->slug = strtolower($slug);
 
 
         if ($request->hasFile('image')) {
